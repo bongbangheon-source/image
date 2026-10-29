@@ -1,0 +1,22 @@
+{
+  "name": "morph-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env scripts/serve.mjs",
+    "dev": "node --env-file-if-exists=.env --watch scripts/serve.mjs",
+    "test": "node --test",
+    "test:browser": "node scripts/browser-check.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}

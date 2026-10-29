@@ -1,0 +1,12 @@
+.env
+.env.*
+.env*
+!.env.example
+tests/
+node_modules/
+test-results/
+.vscode/
+.idea/
+coverage/
+*.log
+TEST-RESULTS.md
